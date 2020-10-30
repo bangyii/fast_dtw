@@ -88,7 +88,7 @@ public:
         return _timeReadings[n];
     }
     
-    string& getLabel(JInt n) const
+    string getLabel(JInt n) const
     {
         return _labels[n];
     }
